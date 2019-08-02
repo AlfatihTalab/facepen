@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mafont"
+        android:text=" You can register free!"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="28sp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernameInputRG"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="5dp"
+        >
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/user_edt_text_rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="username"
+            android:inputType="text"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordInputRG"
+        android:layout_below="@id/usernameInputRG"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        app:passwordToggleEnabled="true"
+        app:counterOverflowTextAppearance="@style/CharacterOverflow"
+        >
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/pass_edt_text_rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password "
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/confPassInput"
+            android:layout_below="@id/passwordInputRG"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="32dp"
+            app:passwordToggleEnabled="true"
+            app:counterOverflowTextAppearance="@style/CharacterOverflow"
+            >
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/passConf_edt_text_rg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Retype password"
+                android:inputType="textPassword" />
+        </android.support.design.widget.TextInputLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/reg_Btn"
+        android:text="Register"
+        style="@style/RaisedButton"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:id="@+id/loginRG_btn"
+            android:text="Already have account"
+            style="@style/RaisedButton"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

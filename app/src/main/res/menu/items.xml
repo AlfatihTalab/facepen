@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/addPost_item"
+        android:icon="@drawable/pen_black_24dp"
+        android:title="@string/action_pen"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/settingItem"
+        android:title="@string/acount_setting" />
+    <item
+        android:id="@+id/logoutItem"
+        android:title="@string/logout_action" />
+</menu>

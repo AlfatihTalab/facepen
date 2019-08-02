@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "61288130833",
+    "firebase_url": "https://facepen-13454.firebaseio.com",
+    "project_id": "facepen-13454",
+    "storage_bucket": "facepen-13454.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61288130833:android:abdf42bbf2de7146",
+        "android_client_info": {
+          "package_name": "com.alfatih.facepen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61288130833-oiohrvdvadbv493cnml766rod1ug781e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alfatih.facepen",
+            "certificate_hash": "886ec5882145431855707695996478ac2c1fa4cc"
+          }
+        },
+        {
+          "client_id": "61288130833-7qu28nh07uekgr1kb80etd5q9mrteb9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQFnji9tDeYLyLbYBY7Gawfd6u0CIK2Wc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61288130833-7qu28nh07uekgr1kb80etd5q9mrteb9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

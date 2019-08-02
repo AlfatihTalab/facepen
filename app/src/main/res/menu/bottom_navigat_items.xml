@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/msgItem_id"
+        android:icon="@drawable/msg"
+        android:title="@string/msg_item"
+        android:orderInCategory="3"/>
+    <item
+        android:id="@+id/homeItem_id"
+        android:icon="@drawable/homenavi"
+        android:title="@string/homeitem_nav"
+        android:orderInCategory="1"/>
+    <item
+        android:id="@+id/puplicItem_id"
+        android:icon="@drawable/puplicnoti"
+        android:title="@string/puplicnotif"
+        android:orderInCategory="2"/>
+    <item
+        android:id="@+id/addFrindItem_id"
+        android:icon="@drawable/addfrinds"
+        android:title="@string/addfrinditem"
+        android:orderInCategory="4"/>
+
+</menu>

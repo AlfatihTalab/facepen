@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">facepen</string>
+    <string name="action_pen">Search</string>
+    <string name="acount_setting">Account setting</string>
+    <string name="logout_action">Logout</string>
+    <string name="setup_name_editText">Name</string>
+    <string name="setup_button">Save Account Setting</string>
+    <string name="homeitem_nav">Home</string>
+    <string name="addfrinditem">Friends</string>
+    <string name="puplicnotif">Notification</string>
+    <string name="msg_item">Messages</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to_the_messege_fragment">Welcome to the messege fragment</string>
+</resources>
